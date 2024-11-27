@@ -1,1 +1,1 @@
-# Ricardo-Typhoon
+# Ricardo-Typhoon Stepper Control Board
