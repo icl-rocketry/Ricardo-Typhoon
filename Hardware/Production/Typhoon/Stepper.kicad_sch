@@ -2718,7 +2718,7 @@
 		(uuid "bb768a42-cc96-4034-a0fe-d168f02a253e")
 	)
 	(label "OB2"
-		(at 172.72 92.71 180)
+		(at 172.72 100.33 180)
 		(fields_autoplaced yes)
 		(effects
 			(font
@@ -2751,7 +2751,7 @@
 		(uuid "4d19d3e0-e1ad-4b6b-ae75-f751e1ffccd4")
 	)
 	(label "OA2"
-		(at 172.72 100.33 180)
+		(at 172.72 92.71 180)
 		(fields_autoplaced yes)
 		(effects
 			(font
@@ -2762,7 +2762,7 @@
 		(uuid "816aba59-2f8c-4bea-bff9-b520a9b509b7")
 	)
 	(label "OA1"
-		(at 172.72 97.79 180)
+		(at 172.72 95.25 180)
 		(fields_autoplaced yes)
 		(effects
 			(font
@@ -2773,7 +2773,7 @@
 		(uuid "9f6dec0c-fe4a-4af7-b53d-57b5b18f5101")
 	)
 	(label "OB1"
-		(at 172.72 95.25 180)
+		(at 172.72 97.79 180)
 		(fields_autoplaced yes)
 		(effects
 			(font
@@ -4480,7 +4480,6 @@
 		(in_bom yes)
 		(on_board yes)
 		(dnp no)
-		(fields_autoplaced yes)
 		(uuid "bfc637a8-a210-42f2-981d-7294f64f392c")
 		(property "Reference" "J3"
 			(at 179.07 95.2499 0)
