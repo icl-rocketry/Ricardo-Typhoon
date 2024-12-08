@@ -4156,6 +4156,16 @@
 	)
 	(wire
 		(pts
+			(xy 135.89 74.93) (xy 137.16 74.93)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "f71bf37d-4952-4513-a313-b66212bf71b0")
+	)
+	(wire
+		(pts
 			(xy 59.69 142.24) (xy 62.23 142.24)
 		)
 		(stroke
@@ -4331,6 +4341,17 @@
 		)
 		(uuid "04ab6f9d-5a8f-48fc-8d2a-7f199a0097c1")
 	)
+	(label "VREF"
+		(at 135.89 69.85 0)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "0ec43c52-2e62-4aa7-88b6-eb23a768b241")
+	)
 	(label "SG_RESULT"
 		(at 237.49 95.25 0)
 		(fields_autoplaced yes)
@@ -4386,6 +4407,17 @@
 		)
 		(uuid "2f1dd763-a376-4bd0-a0a8-fd7c2a496b81")
 	)
+	(label "EXT_CLK"
+		(at 212.09 105.41 180)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right bottom)
+		)
+		(uuid "32b6538e-1c16-4af0-ab3c-7a5efe1a89ac")
+	)
 	(label "CAN+"
 		(at 115.57 185.42 0)
 		(fields_autoplaced yes)
@@ -4429,6 +4461,39 @@
 			(justify left bottom)
 		)
 		(uuid "3f00994b-99c9-4ca0-835d-a6fc3df540f3")
+	)
+	(label "INDEX"
+		(at 135.89 72.39 0)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "4030e94f-625d-41f4-a0d4-91ca019a132e")
+	)
+	(label "EN"
+		(at 135.89 115.57 0)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "493dbd43-b342-4947-b2c7-53c99c515be6")
+	)
+	(label "SPREAD_EN"
+		(at 135.89 118.11 0)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "53201080-eabb-4a5c-a9bb-b0023349e1e9")
 	)
 	(label "Data-"
 		(at 99.06 162.56 0)
@@ -4484,6 +4549,17 @@
 			(justify right bottom)
 		)
 		(uuid "619ba5cd-42c8-4296-9b1d-d4274ca838a9")
+	)
+	(label "EN"
+		(at 212.09 107.95 180)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right bottom)
+		)
+		(uuid "649dfc5e-176e-40c2-96e0-fdd2accb75b2")
 	)
 	(label "TXD"
 		(at 30.48 54.61 0)
@@ -4650,6 +4726,17 @@
 		)
 		(uuid "ae2f903f-cfb1-4db9-8283-2f217bf01ff5")
 	)
+	(label "SPREAD_EN"
+		(at 212.09 110.49 180)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right bottom)
+		)
+		(uuid "b341d983-c840-46ab-ba91-807e4d58e532")
+	)
 	(label "MOTOR_STEP"
 		(at 212.09 87.63 180)
 		(fields_autoplaced yes)
@@ -4716,6 +4803,17 @@
 		)
 		(uuid "cfca47c4-5eb9-41f6-83fd-f8f363716885")
 	)
+	(label "INDEX"
+		(at 212.09 102.87 180)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right bottom)
+		)
+		(uuid "d257a960-68a3-4c1f-b28d-f580d3b49c8f")
+	)
 	(label "CAN_RX"
 		(at 115.57 182.88 0)
 		(fields_autoplaced yes)
@@ -4749,6 +4847,17 @@
 		)
 		(uuid "d8329149-7964-488d-8817-f9c407aece81")
 	)
+	(label "VREF"
+		(at 212.09 100.33 180)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right bottom)
+		)
+		(uuid "d9710ec6-b212-48ae-8571-7416df20c629")
+	)
 	(label "CAN-"
 		(at 115.57 187.96 0)
 		(fields_autoplaced yes)
@@ -4759,6 +4868,17 @@
 			(justify left bottom)
 		)
 		(uuid "de552ae9-cde6-4643-8cc7-9de2579dadae")
+	)
+	(label "EXT_CLK"
+		(at 142.24 74.93 0)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "e0e62880-31c3-4d00-9a1a-6f69a29c73c3")
 	)
 	(label "GPIO7"
 		(at 69.85 87.63 180)
@@ -7672,6 +7792,73 @@
 		)
 	)
 	(symbol
+		(lib_id "Device:R_Small")
+		(at 139.7 74.93 90)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "95de0168-84fc-42da-a8b7-e1c48d25ad04")
+		(property "Reference" "R22"
+			(at 139.7 79.756 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "50"
+			(at 139.7 77.724 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "Resistor_SMD:R_0402_1005Metric"
+			(at 139.7 74.93 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 139.7 74.93 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Resistor, small symbol"
+			(at 139.7 74.93 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "2"
+			(uuid "c2cab68d-5678-4d5a-8e9e-ef816d11b0aa")
+		)
+		(pin "1"
+			(uuid "22ecc7b1-79d2-45c3-bbcf-df10431df81b")
+		)
+		(instances
+			(project ""
+				(path "/7db990e4-92e1-4f99-b4d2-435bbec1ba83"
+					(reference "R22")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
 		(lib_id "Mechanical:MountingHole_Pad")
 		(at 262.89 30.48 0)
 		(unit 1)
@@ -9317,6 +9504,56 @@
 				(justify right)
 			)
 			(uuid "b0dcda8c-04ad-4bd7-8aa6-da5d2a4517a9")
+		)
+		(pin "VREF" input
+			(at 212.09 100.33 180)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+			(uuid "4abd55a0-e2a6-472d-bae0-867e46d620e1")
+		)
+		(pin "INDEX" input
+			(at 212.09 102.87 180)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+			(uuid "bbbfa808-7156-47b8-89c7-defd94f4aea7")
+		)
+		(pin "EXT_CLK" input
+			(at 212.09 105.41 180)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+			(uuid "5b2ee4e8-0f68-4b6e-8dc3-b479f87414e3")
+		)
+		(pin "EN" input
+			(at 212.09 107.95 180)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+			(uuid "756a36fd-5acb-4fba-b1a4-e067920089ee")
+		)
+		(pin "SPREAD_EN" input
+			(at 212.09 110.49 180)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+			(uuid "c0ff3377-3c8d-4778-bf22-607ce9eb1e06")
 		)
 		(instances
 			(project "Typhoon"
